@@ -3,7 +3,7 @@ import Logo from "../../public/svgs/logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="mt-36 bg-gray-100 p-2 flex flex-col gap-5">
+    <footer className=" bg-gray-200 p-2 flex flex-col gap-5 mx-5 md:mx-20 lg:mx-40">
       <Logo />
       <div className="font-semibold">
         위 서비스는 포트폴리오용으로 이용이 되며,

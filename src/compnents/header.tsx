@@ -13,12 +13,12 @@ export default function Header() {
         <Link href="/" className="hover:text-gray-900">
           이용 안내
         </Link>
-        <Link href="/" className="hover:text-gray-900">
+        <Link href="/login" className="hover:text-gray-900">
           로그인
         </Link>
       </nav>
 
-      <GiHamburgerMenu size={30} className="block lg:hidden" />
+      <GiHamburgerMenu size={30} className="cursor-pointer block lg:hidden" />
     </header>
   );
 }
